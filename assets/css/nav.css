@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+a{
+    text-decoration: none;
+}
+header, .nav-left , .nav-right {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+header > div {
+    display: flex;
+}
+header{
+    width:980px;
+    margin:20px auto;
+}
+.nav-left{
+    margin-right:10px;
+}
+.nav-right > div {
+    margin-left:15px;
+
+}
+.nevbtn{
+   display:none;
+}
+
+#login {
+    background-image: url(../img/gnb_member_re1121.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    
+}
+
+#login > a{
+    color: #fff;
+    font-size: 15px;
+    margin-right: 10px;
+}
+#center{
+    background-image: url(../img/gnb_cert_re1203.png);
+    background-size: cover;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 97px;
+    height: 30px;
+}
+#center > a{ 
+    color: #444;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+/* 코로나 배너 */
+#corona{
+    height:150px;
+    background-color: rgb(26, 84, 160);
+    
+}
