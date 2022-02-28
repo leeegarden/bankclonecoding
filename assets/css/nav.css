@@ -61,7 +61,21 @@ header{
 
 /* 코로나 배너 */
 #corona{
-    height:150px;
+    height:180px;
     background-color: rgb(26, 84, 160);
-    
+    margin:0 auto;
+}
+.coronatext>ul{
+    display:flex;
+    justify-content: center;
+    padding:40px;
+}
+.coronatext>ul>li>h2{
+    text-align: right;
+    color: rgb(243, 227, 0);
+}
+#corona>div>form{
+    display:flex;
+    justify-content: center;
+    margin-left:800px;
 }
