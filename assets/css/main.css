@@ -64,9 +64,11 @@ h3{
     display:flex;
     align-items: center;
     flex-direction: column;
+    margin-top:50px;
+    
 }
 .servicetab>h3{
-margin-right:930px;
+margin-right:920px;
 }
 
 .service {
@@ -76,5 +78,14 @@ margin-right:930px;
 .servicecell{
     margin: 0 20px;
     border: 1px solid #ccc;
+}
+.servicecell>a>div{
+    text-align: center;
+    margin: 10px 0;
+}
+.servicecell>a>div>h4{
+    font-size:25px;
+    margin: 15px 0;
+    color: #555;
 }
 
