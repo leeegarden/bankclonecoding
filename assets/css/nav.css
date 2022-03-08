@@ -3,6 +3,7 @@
 a{
     text-decoration: none;
 }
+
 header, .nav-left , .nav-right {
     display: flex;
     flex-direction:row;

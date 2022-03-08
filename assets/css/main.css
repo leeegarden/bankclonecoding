@@ -1,3 +1,9 @@
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom:50px;
+}
+
 /* 이미지 배너 */
 .rolling{
     text-align: center;
@@ -32,11 +38,7 @@
     flex-direction: column;
    
 }
-.product>div>h3{
-    font-weight: bold;
-    font-size: 30px;
-    margin-bottom:50px;
-}
+
 
 .product>div>ul{
     display:flex;
@@ -57,5 +59,22 @@
 
 .product>div>ul>li>a{
     color: #111;
+}
+.servicetab{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.servicetab>h3{
+margin-right:930px;
+}
+
+.service {
+    display: flex;
+
+}
+.servicecell{
+    margin: 0 20px;
+    border: 1px solid #ccc;
 }
 
