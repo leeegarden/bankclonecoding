@@ -88,4 +88,27 @@ margin-right:920px;
     margin: 15px 0;
     color: #555;
 }
+/* 새소식 및 이벤트----------------------------------- */
+.news_event{
+    background-color: rgb(243, 251, 255);
+    height:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.news_event>div>ul{
+    display: flex;
+    
+}
+.news_event>div>ul>li{
+    margin:10px;
+}
+td{
+    height:30px;
+    font-size:15px;
+}
 
+h5{
+    font-size:20px;
+}
