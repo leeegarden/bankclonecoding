@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.footer-top{
+    background-color:#eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-top: 3px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.footer-top-left{
+    display: flex;
+}
+.footer-top-left>li{
+    margin-right:50px;
+}
+.footer-top-right{
+    display: flex;
+}
+.footer-top-right>li{
+    margin-right:10px;
+}

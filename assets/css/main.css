@@ -1,3 +1,4 @@
+@charset "utf-8";
 h3{
     font-weight: bold;
     font-size: 30px;
@@ -95,7 +96,7 @@ margin-right:920px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin: 40px 0 60px 0;
 }
 .news_event>div>ul{
     display: flex;
