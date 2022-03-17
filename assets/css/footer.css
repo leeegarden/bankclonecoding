@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .footer-top{
-    background-color:#eee;
+    background-color:rgb(245, 245, 245);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,6 @@
 }
 
 .footer-bottom{
-    background-color:rgb(245, 245, 245);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +32,9 @@
 }
 .footer-info{
     font-size: 14px;
+}
+.footer-info>a{
+    color: #666;
 }
 .footer-cell>a>img{
     width: 20px;
