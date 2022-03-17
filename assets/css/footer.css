@@ -21,3 +21,19 @@
 .footer-top-right>li{
     margin-right:10px;
 }
+
+.footer-bottom{
+    background-color:rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-bottom>div{
+    margin: 15px 30px 50px 30px;
+}
+.footer-info{
+    font-size: 14px;
+}
+.footer-cell>a>img{
+    width: 20px;
+}
