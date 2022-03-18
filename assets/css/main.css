@@ -151,6 +151,13 @@ td{
     height:30px;
     font-size:15px;
 }
+td>a{
+    color:#000;
+}
+td>a:hover{
+    color:rgb(62, 116, 216);
+    text-decoration:underline;
+}
 
 h5{
     font-size:20px;

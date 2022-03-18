@@ -25,7 +25,27 @@ header{
 
 }
 .nevbtn{
-   display:none;
+    display: flex;
+    position: absolute;
+    top: 55px;
+    z-index: 100;
+    background-color:#fff; 
+    border-radius:5px 5px;
+}
+.nevbtn-left{
+    padding: 10px 20px;
+    border-radius:5px 0 0 5px;
+    font-size:12px;
+}
+.nevbtn-right{
+    padding: 10px 20px;
+    border-radius:0 5px 5px 0;
+    font-size:12px;
+}
+.nevbtn>li:hover{
+    background-color:rgb(62, 118, 163);
+    padding: 10px 20px;
+    color:#fff;
 }
 
 #login {
